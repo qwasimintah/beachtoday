@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="pref_location_options">
+        <item>accra</item>
+        <item>kumasi</item>
+        <item>takoradi</item>
+        <item>asamankese</item>
+        <item>nkawkaw</item>
+        <item>tema</item>
+        <item>capecoast</item>
+        <item>oda</item>
+        <item>winneba</item>
+        <item>hohoe</item>
+        <item>konongo</item>
+        <item>tafo</item>
+        <item>anloga</item>
+        <item>navrongo</item>
+        <item>techiman</item>
+        <item>bolgatanga</item>
+        <item>obuasi</item>
+        <item>wenchi</item>
+        <item>ho</item>
+        <item>secondi</item>
+        <item>sweduru</item>
+        <item>agogo</item>
+        <item>mampong</item>
+        <item>tarkwa</item>
+        <item>berekum</item>
+        <item>nungua</item>
+        <item>wa</item>
+        <item>elmina</item>
+        <item>savelugu</item>
+        <item>koforidua</item>
+        <item>aflao</item>
+        <item>madina</item>
+        <item>tamale</item>
+        <item>bawku</item>
+        <item>nsawam</item>
+        <item>teshie</item>
+        <item>ejura</item>
+        <item>prestea</item>
+        <item>yendi</item>
+        <item>sunyani</item>
+    </string-array>
+
+
+    <string-array name="pref_location_values">
+        <item>accra</item>
+        <item>kumasi</item>
+        <item>takoradi</item>
+        <item>asamankese</item>
+        <item>nkawkaw</item>
+        <item>tema</item>
+        <item>capecoast</item>
+        <item>oda</item>
+        <item>winneba</item>
+        <item>hohoe</item>
+        <item>konongo</item>
+        <item>tafo</item>
+        <item>anloga</item>
+        <item>navrongo</item>
+        <item>techiman</item>
+        <item>bolgatanga</item>
+        <item>obuasi</item>
+        <item>wenchi</item>
+        <item>ho</item>
+        <item>secondi</item>
+        <item>sweduru</item>
+        <item>agogo</item>
+        <item>mampong</item>
+        <item>tarkwa</item>
+        <item>berekum</item>
+        <item>nungua</item>
+        <item>wa</item>
+        <item>elmina</item>
+        <item>savelugu</item>
+        <item>koforidua</item>
+        <item>aflao</item>
+        <item>madina</item>
+        <item>tamale</item>
+        <item>bawku</item>
+        <item>nsawam</item>
+        <item>teshie</item>
+        <item>ejura</item>
+        <item>prestea</item>
+        <item>yendi</item>
+        <item>sunyani</item>
+    </string-array>
+</resources>

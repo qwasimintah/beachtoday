@@ -1,0 +1,13 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+        android:key="location"
+        android:title="Location"
+        android:defaultValue="accra"
+        android:entryValues="@array/pref_location_values"
+        android:entries="@array/pref_location_options"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null" />
+
+</PreferenceScreen>
+<!-- From: file:/C:/Users/QWASI%20MINTAH/Desktop/dennis/BeachToday/app/src/main/res/xml/pref_general.xml -->

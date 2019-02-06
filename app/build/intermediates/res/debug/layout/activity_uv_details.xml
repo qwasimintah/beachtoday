@@ -1,0 +1,6 @@
+<fragment xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:id="@+id/fragment"
+    android:name="com.example.qwasimintah.beachtoday.UvDetailsFragment"
+    tools:layout="@layout/fragment_uv_details" android:layout_width="match_parent"
+    android:layout_height="match_parent" />
+<!-- From: file:/C:/Users/QWASI%20MINTAH/Desktop/dennis/BeachToday/app/src/main/res/layout/activity_uv_details.xml -->

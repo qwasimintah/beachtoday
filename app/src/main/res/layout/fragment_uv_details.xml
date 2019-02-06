@@ -1,0 +1,119 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@drawable/touch_selector"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        >
+        <ImageView
+            android:paddingRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:src="@drawable/precautions"
+            />
+        <TextView
+            android:fontFamily="sans-serif-condensed"
+            android:id="@+id/detail_day_textview"
+            android:layout_height="wrap_content"
+            android:minWidth="120dp"
+            android:text="Today"
+            android:layout_width="wrap_content"
+            android:textSize="24sp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="16dp"
+            >
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="UV Index"
+                    android:textSize="20sp"
+                    />
+
+                <TextView
+                    android:id="@+id/uv_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="11"
+                    android:textSize="96sp"
+                    />
+
+            </LinearLayout>
+<LinearLayout
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical"
+    >
+    <ImageView
+        android:id="@+id/uv_image"
+        android:layout_width="170dp"
+        android:layout_height="200dp"
+        android:src="@drawable/low"
+        />
+    <TextView
+
+        android:fontFamily="sans-serif-condensed"
+        android:id="@+id/uv_state"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textColor="@color/grey_700"
+        android:text="Medium"
+        android:padding="10dp"
+        android:layout_gravity="center_horizontal"
+        android:textAppearance="?android:textAppearanceLarge"/>
+</LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SAFETY PRECAUTIONS"
+            android:layout_gravity="center_horizontal"
+            android:textAppearance="?android:textAppearanceLarge"
+            />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/uv_image"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/precautions"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/safety"
+            />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Powered by World Weather Online"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/yellow"
+        />
+    </LinearLayout>
+
+
+</ScrollView>

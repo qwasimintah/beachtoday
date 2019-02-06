@@ -1,0 +1,84 @@
+<!-- Layout for weather forecast list item for today -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:minHeight="?android:attr/listPreferredItemHeight"
+    android:orientation="horizontal"
+    android:background="@drawable/today_touch_selector"
+    >
+
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_weight="7"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/list_item_date_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:fontFamily="sans-serif-light"
+            android:text="Today,June 11"
+            android:textColor="@color/white" />
+        <TextView
+            android:id="@+id/location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Accra"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColor="@color/white"
+            />
+        <TextView
+            android:id="@+id/list_item_uv_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:fontFamily="sans-serif-light"
+            android:text="UV Index"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/list_item_index_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="100sp"
+            android:text="7"
+            android:fontFamily="sans-serif-light"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_weight="5"
+        android:layout_marginRight="16dp"
+        android:orientation="vertical"
+        android:gravity="center_horizontal|bottom">
+
+        <ImageView
+            android:id="@+id/sun_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="140dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/low"
+            />
+
+        <TextView
+            android:id="@+id/uv_state"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:layout_gravity="center_horizontal"
+            android:text="Very High"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+</LinearLayout><!-- From: file:/C:/Users/QWASI%20MINTAH/Desktop/dennis/BeachToday/app/src/main/res/layout/uv_today.xml -->

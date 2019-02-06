@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\QWASI MINTAH\Desktop\dennis\BeachToday\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.1.1\jars\libs\internal_impl-22.1.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="9e070ad32b2700b0343e8e0cccc437733d91ba3a">
+        <dex dex="C:\Users\QWASI MINTAH\Desktop\dennis\BeachToday\app\build\intermediates\pre-dexed\debug\internal_impl-22.1.1-f94c43fe039c4e178bee566f92d59f690a8b31f6.jar" />
+    </item>
+    <item
+        jar="C:\Users\QWASI MINTAH\Desktop\dennis\BeachToday\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c95ba8152923e4872e86a82cfcba9a51c0214328">
+        <dex dex="C:\Users\QWASI MINTAH\Desktop\dennis\BeachToday\app\build\intermediates\pre-dexed\debug\classes-f3fecc47e97f3414e4588e71ec3a637cb872a718.jar" />
+    </item>
+    <item
+        jar="C:\Users\QWASI MINTAH\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.1.1\support-annotations-22.1.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="01d051a6bfb1218b1db2d3a5af0480ac2c25c42a">
+        <dex dex="C:\Users\QWASI MINTAH\Desktop\dennis\BeachToday\app\build\intermediates\pre-dexed\debug\support-annotations-22.1.1-ab72f7d7900bea5ff7b90fc622ee6e4b10022b6b.jar" />
+    </item>
+    <item
+        jar="C:\Users\QWASI MINTAH\Desktop\dennis\BeachToday\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a3ff3c506644c820eb2bdf06e8339f72be578551">
+        <dex dex="C:\Users\QWASI MINTAH\Desktop\dennis\BeachToday\app\build\intermediates\pre-dexed\debug\classes-b6868559e8a64a6202b7deeb71d1a98cd041f3ee.jar" />
+    </item>
+
+</items>
